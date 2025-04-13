@@ -1,0 +1,11 @@
+[project]
+name = "kubernetes-mcp-server"
+version = "0.1.0"
+description = "MCP server for Kubernetes"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "kubernetes>=32.0.1",
+    "mcp>=1.6.0",
+]
+authors = [{ name = "Hyeonki Hong", email = "hhk7734@gmail.com" }]
