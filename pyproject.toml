@@ -9,3 +9,8 @@ dependencies = [
     "mcp>=1.6.0",
 ]
 authors = [{ name = "Hyeonki Hong", email = "hhk7734@gmail.com" }]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.6",
+]
